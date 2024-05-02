@@ -1,1 +1,12 @@
-無料
+[
+xmin 37
+ymin 0
+xmax 1564
+ymax 781
+][
+font 175
+height 800
+letterspacing -8
+color #ffff00
+y 680
+]無料

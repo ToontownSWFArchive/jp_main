@@ -1,1 +1,12 @@
-読み込み中
+[
+xmin 363
+ymin -33
+xmax 1632
+ymax 265
+][
+font 175
+height 260
+color #999999
+x 360
+y 220
+]読み込み中

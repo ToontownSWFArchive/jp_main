@@ -1,1 +1,19 @@
-読み込み中
+[
+xmin -40
+ymin -40
+xmax 2040
+ymax 360
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+useoutlines 1
+font 175
+height 260
+color #ff999999
+align center
+leftmargin 0
+rightmargin 0
+indent 0
+leading 0
+]読み込み中

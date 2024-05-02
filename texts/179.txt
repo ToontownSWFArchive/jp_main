@@ -1,1 +1,12 @@
-とじる
+[
+xmin 36
+ymin -17
+xmax 788
+ymax 285
+][
+font 175
+height 280
+letterspacing -16
+color #e0181c
+y 240
+]とじる

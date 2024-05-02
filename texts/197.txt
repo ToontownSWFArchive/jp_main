@@ -1,5 +1,12 @@
-こちらか
---- RECORDSEPARATOR ---
-ら
---- RECORDSEPARATOR ---
-!
+[
+xmin 24
+ymin -19
+xmax 1365
+ymax 238
+][
+font 175
+height 240
+letterspacing 16
+color #ffffff
+y 200
+]こちらから!

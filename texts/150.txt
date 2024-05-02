@@ -1,1 +1,11 @@
-SOUND
+[
+xmin 6
+ymin 40
+xmax 633
+ymax 198
+][
+font 149
+height 160
+color #ffffff
+y 180
+]SOUND

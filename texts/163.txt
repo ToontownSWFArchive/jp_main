@@ -1,1 +1,19 @@
-みんなで協力したり、競ったり、みんなでワイワイ楽しめるゲームだよ。→続きを読む
+[
+xmin -40
+ymin -40
+xmax 6655
+ymax 1018
+wordwrap 1
+multiline 1
+readonly 1
+noselect 1
+html 1
+font 162
+height 260
+color #ff000000
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading 0
+]<p align="left"><font face="_等幅" size="13" color="#000000" letterSpacing="0.000000" kerning="0">みんなで協力したり、競ったり、みんなでワイワイ楽しめるゲームだよ。</font></p><p align="left"><font face="_等幅" size="13" color="#000000" letterSpacing="0.000000" kerning="0">→続きを読む</font></p>

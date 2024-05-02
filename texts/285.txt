@@ -1,1 +1,12 @@
-WANTED
+[
+xmin 1
+ymin 3
+xmax 765
+ymax 220
+][
+font 284
+height 220
+letterspacing -3
+color #d8c785
+y 200
+]WANTED

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript" src="canvas.js"></script><style type="text/css">#resizable {position:relative; display:inline-block; margin:0; padding:0;font-size:0px;} #width_size {width:10px; position:absolute; right:-5px; top:0px; bottom:0px; cursor:e-resize;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;} #height_size {height:10px; position:absolute; bottom:-5px; left:0px; right:0px; cursor:n-resize;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;} #myCanvas {margin:0; padding:0;} </style></head><body>
+
+<div id="resizable"><canvas id="myCanvas" width="138" height="209" style="border:1px solid #c3c3c3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas><div id="width_size">&nbsp;</div><div id="height_size">&nbsp;</div></div>
+
+<script>var canvas=document.getElementById("myCanvas");
+var ctx=canvas.getContext("2d");
+enhanceContext(ctx);
+var ctrans = new cxform(0,0,0,0,255,255,255,255);
+function morphshape57(ctx,ctrans,frame,ratio,time){
+	var pathData="M -737 -2135 -1474 815 Q -737 -2136 -1189 1318 -534 -1778 -986 1676 -332 -1422 -784 2033 -46 -917 -784 2033 240 -412 -784 2033 442 -55 -986 1676 644 301 -1189 1318 644 301 -1474 815 644 301 -1761 309 442 -55 -1963 -48 240 -412 -2165 -405 -46 -917 -2165 -404 -332 -1422 -2165 -405 -534 -1778 -1963 -48 -737 -2136 -1761 309 -737 -2135 -1474 815";
+	drawMorphPath(ctx,pathData,ratio,false);
+	ctx.fillStyle=tocolor(ctrans.apply([Math.round(136+ratio*(0)/65535),Math.round(159+ratio*(0)/65535),Math.round(201+ratio*(1)/65535),((Math.round(0+ratio*(0)/65535))/255)]));
+	ctx.fill("evenodd");
+	ctx.save();
+	ctx.clip();
+	ctx.transform(0.0423126220703125+ratio*(0.0323486328125)/65535,0.0+ratio*(0)/65535,0.0+ratio*(0)/65535,0.0423126220703125+ratio*(0.0323486328125)/65535,-46.0+ratio*(-870)/65535,-1475.0+ratio*(2288)/65535);
+	var grd=ctx.createRadialGradient(0.0+ratio*(0)/65535,0,0,0,0,16384);
+	var s = 0.4627450980392157+ratio*(0.1686274509803921)/65535;
+	if(s<0) s = 0;
+	if(s>1) s = 1;
+	grd.addColorStop(s,tocolor(ctrans.apply([Math.round(220+ratio*(-14)/65535),Math.round(228+ratio*(16)/65535),Math.round(239+ratio*(15)/65535),((Math.round(128+ratio*(59)/65535))/255)])));
+	var s = 1.0+ratio*(0)/65535;
+	if(s<0) s = 0;
+	if(s>1) s = 1;
+	grd.addColorStop(s,tocolor(ctrans.apply([Math.round(136+ratio*(0)/65535),Math.round(159+ratio*(0)/65535),Math.round(201+ratio*(1)/65535),((Math.round(0+ratio*(0)/65535))/255)])));
+	ctx.fillStyle = grd;
+	ctx.fillRect(-16384,-16384,32768,32768);
+	ctx.restore();
+	var pathData="M -737 -2135 -1474 815 Q -737 -2136 -1761 309 -534 -1778 -1963 -48 -332 -1422 -2165 -405 -46 -917 -2165 -404 240 -412 -2165 -405 442 -55 -1963 -48 644 301 -1761 309 644 301 -1474 815 644 301 -1189 1318 442 -55 -986 1676 240 -412 -784 2033 -46 -917 -784 2033 -332 -1422 -784 2033 -534 -1778 -986 1676 -737 -2136 -1189 1318 -737 -2135 -1474 815";
+	var scaleMode = "NORMAL";
+	ctx.strokeStyle=tocolor(ctrans.apply([Math.round(0+ratio*(0)/65535),Math.round(0+ratio*(0)/65535),Math.round(0+ratio*(1)/65535),((Math.round(0+ratio*(0)/65535))/255)]));
+	ctx.lineWidth=0.0+ratio*(0)/65535;
+	ctx.lineCap="round";
+	ctx.lineJoin="round";
+	drawMorphPath(ctx,pathData,ratio,true,scaleMode);
+
+}
+
+var originalWidth=138;
+var originalHeight=209;
+ function drawFrame(ctx,ratio){
+	ctx.save();
+	ctx.transform(canvas.width/originalWidth,0,0,canvas.height/originalHeight,0,0);
+	place("morphshape57",canvas,ctx,[0.05,0.0,0.0,0.05,106.75,108.25],ctrans,1,0,ratio,0);
+	ctx.restore();
+}
+var step = 655;
+var ratio = -1;
+function nextFrame(ctx){
+	ctx.clearRect(0,0,138,209);
+	ratio = (ratio+step)%65535;
+	drawFrame(ctx,ratio);
+}
+window.setInterval(function(){nextFrame(ctx)},10);
+</script>
+</body>
+</html>

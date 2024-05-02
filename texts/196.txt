@@ -1,11 +1,15 @@
-おた
---- RECORDSEPARATOR ---
-め
---- RECORDSEPARATOR ---
-し
---- RECORDSEPARATOR ---
-体
---- RECORDSEPARATOR ---
-験
---- RECORDSEPARATOR ---
-は
+[
+xmin 9
+ymin -7
+xmax 1851
+ymax 287
+][
+font 175
+height 280
+letterspacing -1
+color #ffffff
+y 240
+]おためし体験[
+font 175
+height 160
+]は

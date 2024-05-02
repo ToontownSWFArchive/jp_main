@@ -1,6 +1,3 @@
-git init
-git remote add origin https://github.com/ToontownSWFArchive/jp_main
-git fetch
-git add -A
-git commit -m "Init"
+git add *
+git commit -m "Update files"
 git push -u origin master

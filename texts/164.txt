@@ -1,1 +1,16 @@
-2006年4月12日（水）
+[
+xmin -40
+ymin -40
+xmax 3005
+ymax 366
+readonly 1
+noselect 1
+font 162
+height 260
+color #ff000000
+align left
+leftmargin 0
+rightmargin 0
+indent 0
+leading -40
+]2006年4月12日（水）
