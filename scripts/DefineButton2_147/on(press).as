@@ -1,0 +1,12 @@
+on(press){
+   if(isSoundOn)
+   {
+      _global.toontown.sound.BGM.setFade("main",0,100);
+      this.gotoAndStop("off");
+   }
+   else
+   {
+      _global.toontown.sound.playBGM("main",100,100);
+      this.gotoAndStop("on");
+   }
+}

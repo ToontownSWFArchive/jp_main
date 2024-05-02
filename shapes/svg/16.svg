@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="105.1px" width="155.6px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -697.75, -424.65)">
+    <path d="M704.3 522.7 L704.3 525.2 848.8 525.0 847.3 431.5 845.3 431.5" fill="none" stroke="#7e2601" stroke-linecap="round" stroke-linejoin="round" stroke-width="9.15"/>
+    <path d="M704.3 522.7 L846.75 522.5 845.3 431.5" fill="none" stroke="#7e2601" stroke-linecap="round" stroke-linejoin="round" stroke-width="9.15"/>
+    <path d="M845.3 431.5 L704.3 432.8 704.3 522.7" fill="none" stroke="#7e2601" stroke-linecap="round" stroke-linejoin="round" stroke-width="9.15"/>
+    <path d="M845.3 431.5 L845.25 429.2 702.3 430.4 702.3 522.6 704.3 522.7" fill="none" stroke="#7e2601" stroke-linecap="round" stroke-linejoin="round" stroke-width="9.15"/>
+    <path d="M845.25 429.2 L846.75 522.5 702.3 522.6 702.3 430.4 845.25 429.2" fill="#336633" fill-rule="evenodd" stroke="none"/>
+    <path d="M704.3 432.8 L704.3 525.2 848.8 525.0 847.3 431.5 704.3 432.8 Z" fill="none" stroke="#953e03" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.65"/>
+    <path d="M811.75 514.1 Q796.25 514.9 782.55 514.9 773.8 514.6 756.65 514.4 750.8 514.1 745.05 514.4 L736.55 515.3 Q722.9 516.1 711.05 514.1 710.9 513.6 710.9 512.7 L711.3 503.3 711.25 476.9 Q710.95 458.65 711.3 439.7 L717.15 439.0 837.75 439.6 838.4 515.2 834.15 515.7 829.9 515.1 Q821.4 513.6 811.75 514.1" fill="#fffecb" fill-rule="evenodd" stroke="none"/>
+    <path d="M811.75 514.1 Q821.4 513.6 829.9 515.1 L834.15 515.7 838.4 515.2 837.75 439.6 717.15 439.0 711.3 439.7 Q710.95 458.65 711.25 476.9 L711.3 503.3 710.9 512.7 Q710.9 513.6 711.05 514.1 722.9 516.1 736.55 515.3 L745.05 514.4 Q750.8 514.1 756.65 514.4 773.8 514.6 782.55 514.9 796.25 514.9 811.75 514.1 Z" fill="none" stroke="#fcd57a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6"/>
+    <path d="M843.75 519.1 L842.65 432.6 705.25 433.8 705.25 519.2 843.75 519.1 M847.05 426.8 Q847.7 427.45 847.9 429.1 L849.4 522.4 849.15 524.2 848.25 525.4 Q847.6 525.8 846.8 525.8 L702.55 526.0 Q701.9 526.0 701.05 525.5 700.35 525.1 700.05 524.2 699.55 523.35 699.55 522.5 L699.55 430.3 Q699.55 429.05 700.3 428.0 701.0 427.0 702.3 427.0 L845.15 425.8 Q846.35 425.8 847.05 426.8" fill="#eb6004" fill-rule="evenodd" stroke="none"/>
+  </g>
+</svg>
